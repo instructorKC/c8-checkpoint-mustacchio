@@ -57,3 +57,77 @@ article {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer {
+    background: #252525;
+    margin-top: 30px;
+    /* display: block; */
+    height: 120px;
+
+}
+
+
+footer p {
+    color: white;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 150px;
+    /* display: block; */
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    /* line-height: 14px; */
+    float: none;
+    margin: 0;
+    /* text-align: center; */
+}
+
+footer ul {
+    display: block;
+    /* float: right; */
+    margin-left: 60%;
+    margin-bottom: -10px;
+    /* margin: 0; */
+    overflow: visible;
+    padding: -10px;
+    /* width: 32356px; */
+    /* list-style-type: disc; */
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+}
+
+footer ul li {
+    /* display: block; */
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+    width: 44px;
+}
+
+
+
+footer ul li a {
+background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
+display: block;
+height: 44px;
+margin:0px;
+margin-top: -43px;
+padding: 0;
+text-indent: -99999px;
+width: 44px;
+}
+
+footer ul li #twitter {
+    background-position: 0 0;
+}
+
+footer ul li #facebook {
+    background-position: 0 -44px;
+}
+
+footer ul li #googleplus {
+    background-position: 0 -88px;
+}
+
+footer ul li #pinterest {
+    background-position: 0 -132px;
+}
