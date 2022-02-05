@@ -15,10 +15,45 @@ body {
 
 a {
     margin-left: 30pt;
-    
 }
 
 nav {
     margin-top: 30pt;
     text-align: center;
+}
+
+.a1 {
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 40%;
+    
+}
+
+.a2 {
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+}
+
+
+
+article {
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
