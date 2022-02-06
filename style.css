@@ -16,7 +16,15 @@ body {
 
 a {
     margin-left: 30pt;
-    
+    text-decoration: none;
+}
+
+a:active {
+    color: teal;
+}
+
+.active {
+    color:red;
 }
 
 nav {

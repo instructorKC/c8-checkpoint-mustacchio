@@ -32,9 +32,6 @@ nav {
     /* max-width: 100%;  */
 }
 
-div img {
-    border-right: 2px black solid;
-}
 .a1 {
     font-size: 30px;
     font-weight: bolder;
@@ -47,37 +44,22 @@ div img {
     margin-right: auto;
     margin-bottom: 50px;
     text-align: center;
-    width: 10%;
+    width: 40%;
 }
 
 .a2 {
-    border: 2px black solid;
-    display: flex;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
-
-.a-int {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.anchor {
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid black;
     background-color: black;
     color: white;
-    display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    width: 130px;
-}
-
-.anchor-int {
-    color:black;
-
+    width: 30%;
 }
 
 footer {
@@ -88,6 +70,15 @@ footer {
 
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    /* width: 800px;
+    height: 500px; */
+    /* width: 50%; */
+}
 
 footer p {
     color: white;
@@ -153,3 +144,5 @@ footer ul li #googleplus {
 footer ul li #pinterest {
     background-position: 0 -132px;
 }
+
+
