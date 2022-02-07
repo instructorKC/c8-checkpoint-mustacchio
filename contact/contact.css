@@ -23,8 +23,6 @@ a:active {
     color: teal;
 }
 
-
-
 nav {
     margin-top: 30pt;
     text-align: center;
@@ -33,6 +31,11 @@ nav {
     margin-left: auto;     */
     /* max-width: 100%;  */
 }
+
+.icon {
+    display: none;
+}
+
 
 .a1 {
     font-size: 30px;
@@ -165,3 +168,170 @@ footer ul li #pinterest {
     background-position: 0 -132px;
 }
 
+@media (max-width:600px) {
+    body {
+        height:1300px;   
+       } 
+    
+    .logo {
+        display: block;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+        max-width: 100%;
+        height: auto;
+      
+    }
+    
+    /* a {
+        margin-left: 20pt;
+        text-decoration: none;
+        /* display: block; */
+        /* color:black;   
+    } */
+    
+    .topnav #myLinks {
+        display: none;
+        width:120px;
+        /* padding-left: 220px; */
+        margin-left: 200px;
+        margin-right: auto;
+        color: white;
+        font-weight: bolder;
+        background-color: rgb(4, 146, 146,0.8);
+        padding-left:0px;
+        padding-right: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        position: fixed;
+        top:190px;
+        left:-25px;
+        text-align: center;
+      }
+
+      .icon {
+        background-color: teal;
+        color:white;
+        width: 40px;
+        height: 40px;
+        /* padding-left: 13px;
+        padding-top: 10px; */
+        box-sizing: border-box;
+        display: inline-block;
+        margin-left: 50px;
+        position: fixed;
+        top:150px;
+        left:-20px;
+      }
+
+      .topnav a:visited {
+          color:black;
+      }
+
+    /* .topnav a {
+        color: white;
+        background-color: teal;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      } */
+
+    
+    .icon {
+        background-color: teal;
+        color:white;
+        width: 40px;
+        height: 40px;
+        padding-left: 13px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        display: block;
+        margin-left: 250px;
+        margin-right: auto;
+
+      }
+
+    
+    /* nav {
+        display: none;
+    } */
+    
+    footer {
+        background: black;
+        margin-top: 30px;
+        /* display: block; */
+        height: 120px;
+    
+    }
+    
+    
+    footer p {
+        color: white;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-left: 100px;
+        /* display: block; */
+        /* margin-block-start: 1em;
+        margin-block-end: 1em; */
+        /* line-height: 14px; */
+        float: none;
+        margin: 0;
+        /* text-align: center; */
+    }
+    
+    footer ul {
+        display: block;
+        /* float: right; */
+        margin-left: 15%;
+        margin-bottom: -10px;
+        /* margin: 0; */
+        overflow: visible;
+        padding: 40px;
+        /* width: 32356px; */
+        /* list-style-type: disc; */
+        /* margin-block-start: 1em;
+        margin-block-end: 1em; */
+    }
+    
+    footer ul li {
+        /* display: block; */
+        float: left;
+        list-style: none;
+        margin: 0px 10px;
+        width: 44px;
+    }
+    
+    
+    
+    footer ul li a {
+    background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
+    display: block;
+    height: 44px;
+    margin:0px;
+    margin-top: -43px;
+    padding: 0;
+    text-indent: -99999px;
+    width: 44px;
+    }
+    
+    footer ul li #twitter {
+        background-position: 0 0;
+    }
+    
+    footer ul li #facebook {
+        background-position: 0 -44px;
+    }
+    
+    footer ul li #googleplus {
+        background-position: 0 -88px;
+    }
+    
+    footer ul li #pinterest {
+        background-position: 0 -132px;
+    }
+
+}

@@ -228,3 +228,37 @@ body {
        font-weight: bolder;
        margin-top: 25px;
    }
+
+
+
+   a {
+    margin-left: 30pt;
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    
+}
+
+.topnav #myLinks {
+    width:120px;
+    /* padding-left: 220px; */
+    margin-left: 200px;
+    margin-right: auto;
+    font-weight: bolder;
+    background-color: rgb(4, 146, 146,0.8);
+    padding-left:0px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    position: fixed;
+    top:190px;
+    left:-25px;
+    text-align: center;
+    color:black;
+  }
+  
+
+a:active {
+    color: teal;
+    color:black;
+}
